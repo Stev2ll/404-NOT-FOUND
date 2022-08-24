@@ -1,0 +1,118 @@
+/* 404 not found */
+.container{
+    position: relative;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    width: 300px;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.container-img {
+    position: absolute;
+    top: 265px;
+    left: 77px;
+    right: 823px;
+    bottom: 367.57px;
+}
+/* Scarecrow */
+.container-img img{
+    max-width: 539.22px; 
+    max-height: 447.43px;
+}
+.container-info {
+    position: absolute;
+    width: 600px;
+    height: 190px;
+    left: 736px;
+    top: 261px;
+}
+    /* I have bad news for you */
+.container-info h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: 1000px;
+    font-size: 64px;
+    letter-spacing: -3.5%;
+    /* Gray 1 */
+    color: #333333;
+}
+.container-info p{
+    /* The page you are looking for might be removed or is temporarily unavailable */
+    width: 370px;
+    font-family: 'Space Mono', monospace;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.container-info button{
+    /* Back to homepage */
+    top: 663px;
+    font-family: 'Space Mono' monospace;
+    font-weight: 1000px;
+    font-size: 14px;
+    /* identical to box height */
+    letter-spacing: -3.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+}
+.main-fo{
+    position: absolute;
+    margin-top: 1039px;
+    left: 577px;
+    right: 577px;
+    width: 300px;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+@media  screen and (max-width:360px) {
+    .container{
+        top: 20px;
+        left: 24px;
+    }
+    .container h2{
+        font-size: 24px;
+    }
+    .container-img{
+        top: 109px;
+        left: 44px;
+    }
+    .container-main img{
+        max-width: 200px;  
+    }
+    .container-info{
+        top: 260px;
+        left: 24px;
+        width: 250px;
+    }
+    .container-info h1{
+        font-size: 33px;
+        width: 250px;
+    }
+    .container-info p{
+        width: 200px;
+        font-size: 14px;
+    }
+    .main-fo{
+        margin-top: 800px;
+        left: 17px;
+    }
+    .main-fo p{
+        font-size: 14px;
+        align-content: center;
+    }
+}
